@@ -11,6 +11,9 @@
 body{
     font-family: yekan;
 }
+html , body{
+    overflow-x: hidden;
+}
 
 /* utilities */
 .lh-1{
@@ -170,7 +173,7 @@ box-shadow: 5px 8px 20px #444;
 }
 /*end of services */
 /* gallery */
-.container {
+.slider-container {
     display: flex;
     align-items: center;
     justify-content: center;
